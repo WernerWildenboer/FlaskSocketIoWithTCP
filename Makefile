@@ -67,8 +67,7 @@ ifeq ($(OSFLAG),LINUX)
 	sudo kill  $(sudo lsof -t -i:12004);\
 	sudo kill  $(sudo lsof -t -i:12005);\
 	pipenv run flask run;
-	export FLASK_APP=my_app2
-	flask run --port 5001
+
 endif
 ifeq ($(OSFLAG),WIN32)
 	@pipenv run python src\main.py
