@@ -1,11 +1,5 @@
 # FlaskSocketIoWithTCP
 
-## To Setup
-
-```
-make pipenv
-```
-
 ## Install Dependencies
 
 ```
@@ -22,4 +16,10 @@ pipenv shell
 
 ```
 make run
+```
+
+## Flask should run on :
+
+```
+http://127.0.0.1:5000/
 ```
